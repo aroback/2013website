@@ -1,0 +1,21 @@
+@font-face {
+	font-family: 'Duo-Dunkel';
+	src: url('../fonts/Duo-Dunkel.ttf');
+	font-weight: normal;
+	font-style: normal;
+	}
+	
+#header h1 {
+	font-family: 'Duo-Dunkel';
+	font-size: 4em;
+	}
+	
+p {
+	font-family: 'Karla', sans-serif;
+	font-size: 1em;
+	}
+	
+h2 {
+	font-family: 'Karla', sans-serif;
+	font-size: 2em;
+	}
