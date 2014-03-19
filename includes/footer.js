@@ -1,2 +1,2 @@
-document.write('<p>PUT FOOTER HERE</p>')
+document.write('<p>ADD LICENSING INFORMATION AND LINK TO REPOSITORY</p>')
 
