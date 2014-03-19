@@ -5,11 +5,11 @@
 	font-style: normal;
 	}
 
-body {
+html {
 	background-color: lightblue;
 }
 	
-#header h1 {
+header h1 {
 	font-family: 'Duo-Dunkel';
 	font-size: 4em;
 	}
