@@ -1,28 +1,18 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<!DOCTYPE HTML>
+<html>
 
 <head>
 
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	
-	<title>Andrew J. Roback | CV </title>
-	
-	<link rel="stylesheet" type="text/css" media="screen, print" href="../css/reset.css" />
-	<link rel="stylesheet" type="text/css" media="screen" href="../css/screen.css" />
-	<link rel="stylesheet" type="text/css" media="print" href="../css/print.css" />
-	<link rel="icon" type="image/ico" href="../images/new_favicon.ico" />
-	
+	<meta charset="utf-8" />
 	<meta name="description" content="Professional site of Andrew J. Roback, Ph.D. candidate and graduate instructor at the Illinois Institute of Technology." />
-
-	<script type="text/javascript">
-	 function unhide(divID) {
- var item = document.getElementById(divID);
- if (item) {
- item.className=(item.className=='hidden')?'unhidden':'hidden';
- }
- }
-	</script>
-
+	
+	<title>Andrew J. Roback | CV</title>
+	
+	<link rel="stylesheet" media="screen, print" href="../css/reset.css" />
+	<link rel="stylesheet" media="screen" href="../css/screen.css" />
+	<link rel="stylesheet" media="print" href="../css/print.css" />
+	<link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Karla:400,700' />
+	<link rel="icon" type="image/ico" href="../images/new_favicon.ico" />
 
 </head>
 
@@ -30,23 +20,21 @@
 
 <div id="page">
 
-<div id="header">
+<header>
 	<h1><a href="../index.html">Andrew J. Roback</a></h1>
 	<h2>Curriculum Vitae</h2>
-</div>
+</header>
 
-<div id="accessible_nav">
+<nav id="accessible_nav">
 	<ul>
 		<li><a href="#cv_navbar">Skip to Curriculum Vitae navigation</a></li>
 		<li><a href="#content_wide">Skip to content</a></li>
 	</ul>
-</div>
+</nav>
 
-<?php include($_SERVER["DOCUMENT_ROOT"] . "/includes/navigation.php"); ?>
+<script src="../includes/navigation.php"></script>
 
-
-
-<div id="cv_navbar">
+<nav id="cv_navbar">
 
 <ul>
 	<li><a href="#education_head">Education</a></li>
@@ -58,14 +46,13 @@
 	<li><a href="../papers/paper_pdf/Roback_CV_9_2013.pdf"><img class="adobe" src="../images/pdficon_small.gif" alt="the small icon for adobe pdf files" /> .pdf</a></li>
 </ul>
 
-</div>
+</nav>
 
 
-<div id="content_wide">
+<div id="cv">
 
-<div id="education_head">
-<h1 class="section_break"><a href="javascript:unhide('education');">Education</a></h1>
-<div id="education" class="unhidden">
+<section id="education">
+<h1>Education</h1>
 	<h2>Ph.D. Candidate in Technical Communication</h2>
 		<h3>Illinois Institute of Technology, Chicago, 2009-Present</h3>
 			<ul>
@@ -97,43 +84,37 @@
 				<li><p>Conducted instructor supervised, IRB approved ethnographic research under <a href="http://www.nancyabelmann.com/">Dr. Nancy Ablemann</a>.</p></li>
 				<li><p>Illinois State Scholar, Dean's List, 3.5 major GPA</p></li>
 			</ul>
-</div>
-</div>
+</section>
 
 
-<div id="conf_head">
-<h1 class="section_break"><a href="javascript:unhide('conf');">Conferences and Publications</a></h1>
-<div id="conf" class="unhidden">
-<!--Find a better way to include links to documents in this section-->	
-<h2>Conferences</h2>
-	<ul>
-		<li><p>Roback, A. (2014). Make it with friends, break it yourself: Open-source software and DH research. Illinois Institute of Technology Digital Humanities Speaker Series. January 23, Chicago, IL, USA <a href="../papers/paper_pdf/DH_talk.pdf">[slides]</a></p></li>
-		<li><p>Roback, A. &amp; Hemphill, L. (2013). How Constituents Lobby Members of Congress on Twitter. American Political Science Association Annual Meeting and Convention, August 29-September 1, Chicago, IL, USA <a href="../papers/paper_pdf/APSA_Talk.pdf">[slides]</a> | <a href="http://papers.ssrn.com/sol3/papers.cfm?abstract_id=2301133">[paper]</a></p></li>		
-		<li><p>Roback, A. (2012). Users, Data, and Theory: A Framework and Future Direction for Studying Productive Applications of Social Media / Social Newtworking Sites (Poster). GROUP ’12, October 27-31, Sanibel Island, FL, USA. <a href="../papers/paper_pdf/group_poster.pdf">[poster]</a></p></li>
-		<li><p>Roback, A. (2012). Creating a model of user behavior on social networking sites (Poster). Infosocial, October 12-13, Evanston, IL, USA. - <em>also at</em> - Social Networks and Innovation: A Conference on New Frontiers in Methods &amp; Applications, November 1, 2013, Chicago, IL USA. <a href="../papers/paper_pdf/infosocial_poster.pdf">[poster]</a></p></li>		
-		<li><p>Roback, A. (2010). The Impact of Emerging Literacies on Instant Messaging and Supplemental Writing Instruction. Computers and Writing Conference, May 20-23, West Lafayette, IN, USA.</p> <a href="../papers/paper_pdf/IM_and_WC.pdf">[slides]</a></li>
-		<li><p>Roback, A. (2010). Open Source Tutoring: An examination of the Role of Service-Learning in the Writing Center. Chicagoland Writing Center Association Conference, February 6, Chicago, IL, USA. <a href="../papers/paper_pdf/Open_Source_Tutoring.pdf">[slides]</a></p></li>
-		<li><p>Friddle, L., Legleitner, R., Maloof, A., &amp; Roback, A. (2009). Community, Collaboration, Cogitation: The Three "C's" of Tutor Training. Chicagoland Writing Center Association Conference, February 7, Chicago, IL, USA.</p></li>
-	</ul>
+<section id="conferences">
+<h1>Conferences and Publications</h1>
+	<h2>Conferences</h2>
+		<ul>
+			<li><p>Roback, A. (2014). Make it with friends, break it yourself: Open-source software and DH research. Illinois Institute of Technology Digital Humanities Speaker Series. January 23, Chicago, IL, USA <a href="../papers/paper_pdf/DH_talk.pdf">[slides]</a></p></li>
+			<li><p>Roback, A. &amp; Hemphill, L. (2013). How Constituents Lobby Members of Congress on Twitter. American Political Science Association Annual Meeting and Convention, August 29-September 1, Chicago, IL, USA <a href="../papers/paper_pdf/APSA_Talk.pdf">[slides]</a> | <a href="http://papers.ssrn.com/sol3/papers.cfm?abstract_id=2301133">[paper]</a></p></li>		
+			<li><p>Roback, A. (2012). Users, Data, and Theory: A Framework and Future Direction for Studying Productive Applications of Social Media / Social Newtworking Sites (Poster). GROUP ’12, October 27-31, Sanibel Island, FL, USA. <a href="../papers/paper_pdf/group_poster.pdf">[poster]</a></p></li>
+			<li><p>Roback, A. (2012). Creating a model of user behavior on social networking sites (Poster). Infosocial, October 12-13, Evanston, IL, USA. - <em>also at</em> - Social Networks and Innovation: A Conference on New Frontiers in Methods &amp; Applications, November 1, 2013, Chicago, IL USA. <a href="../papers/paper_pdf/infosocial_poster.pdf">[poster]</a></p></li>		
+			<li><p>Roback, A. (2010). The Impact of Emerging Literacies on Instant Messaging and Supplemental Writing Instruction. Computers and Writing Conference, May 20-23, West Lafayette, IN, USA.</p> <a href="../papers/paper_pdf/IM_and_WC.pdf">[slides]</a></li>
+			<li><p>Roback, A. (2010). Open Source Tutoring: An examination of the Role of Service-Learning in the Writing Center. Chicagoland Writing Center Association Conference, February 6, Chicago, IL, USA. <a href="../papers/paper_pdf/Open_Source_Tutoring.pdf">[slides]</a></p></li>
+			<li><p>Friddle, L., Legleitner, R., Maloof, A., &amp; Roback, A. (2009). Community, Collaboration, Cogitation: The Three "C's" of Tutor Training. Chicagoland Writing Center Association Conference, February 7, Chicago, IL, USA.</p></li>
+		</ul>
 
-<h2>Publications</h2>
-	<ul>
-		<li><p>Hemphill, L. &amp; Roback, A. (2014). Tweet Acts: How Constituents Lobby Congress via Twitter. <cite>2014 ACM Conference on Computer Supported Collaborative Work and Social Computing</cite>, Feb 15-19, Baltimore, MD.</p></li>
-		<li><p>Roback, A. (2013). Uncovering Motives for Social Networking Site Use Among Practitioners at Non-Profit Organizations. <cite>2013 ACM Conference on Computer Supported Collaborative Work</cite>, Feb 23-27, San Antonio, TX. <a href="http://dl.acm.org/citation.cfm?id=2441976&amp;bnc=1">[abstract]</a> | <a href="../papers/paper_pdf/CSCW_DC_poster.pdf">[poster]</a></p></li>
-		<li><p>Roback, A. &amp; Hemphill, L. (2013). "I'd have to vote against you": Issue Campaigning via Twitter (Poster).  <cite>2013 ACM Conference on Computer Supported Collaborative Work</cite>, Feb 23-27, San Antonio, TX. <a href="http://share.iit.edu/handle/10560/2888">[abstract]</a> | <a href="../papers/paper_pdf/CSCW_final.pdf">[poster]</a></p></li>
-		<li><p>Roback, A. (2012). A Framework and Future Direction for Studying Productive Applications of Social Media / Social Networking Sites. <cite>Proceedings of</cite> GROUP ’12, October 27-31, Sanibel Island, FL, USA. <a href="http://dl.acm.org/citation.cfm?id=2389226">[abstract]</a></p></li>
-		<li><p>Dietz, L., Maloof, A., &amp; Roback, A. (2009). <a href="http://www.depaul.edu/magazine/articles/ss09Writing.asp">The Decline of Writing?</a> <cite>DePaul Magazine</cite>, Spring/Summer.</p></li>
-		<li><p>Roback, A. &amp; Maloof, A. (2009). <cite>Hot Topics in Writing</cite> [season one]. A podcast available on the <a href="http://condor.depaul.edu/writing/what/podcast.html">Depaul Writing Center podcast page</a>. All episodes written, recorded, edited, and produced by myself, Alexis Maloof, and Julie Glasier.</p></li>
-	</ul>
+	<h2>Publications</h2>
+		<ul>
+			<li><p>Hemphill, L. &amp; Roback, A. (2014). Tweet Acts: How Constituents Lobby Congress via Twitter. <cite>2014 ACM Conference on Computer Supported Collaborative Work and Social Computing</cite>, Feb 15-19, Baltimore, MD.</p></li>
+			<li><p>Roback, A. (2013). Uncovering Motives for Social Networking Site Use Among Practitioners at Non-Profit Organizations. <cite>2013 ACM Conference on Computer Supported Collaborative Work</cite>, Feb 23-27, San Antonio, TX. <a href="http://dl.acm.org/citation.cfm?id=2441976&amp;bnc=1">[abstract]</a> | <a href="../papers/paper_pdf/CSCW_DC_poster.pdf">[poster]</a></p></li>
+			<li><p>Roback, A. &amp; Hemphill, L. (2013). "I'd have to vote against you": Issue Campaigning via Twitter (Poster).  <cite>2013 ACM Conference on Computer Supported Collaborative Work</cite>, Feb 23-27, San Antonio, TX. <a href="http://share.iit.edu/handle/10560/2888">[abstract]</a> | <a href="../papers/paper_pdf/CSCW_final.pdf">[poster]</a></p></li>
+			<li><p>Roback, A. (2012). A Framework and Future Direction for Studying Productive Applications of Social Media / Social Networking Sites. <cite>Proceedings of</cite> GROUP ’12, October 27-31, Sanibel Island, FL, USA. <a href="http://dl.acm.org/citation.cfm?id=2389226">[abstract]</a></p></li>
+			<li><p>Dietz, L., Maloof, A., &amp; Roback, A. (2009). <a href="http://www.depaul.edu/magazine/articles/ss09Writing.asp">The Decline of Writing?</a> <cite>DePaul Magazine</cite>, Spring/Summer.</p></li>
+			<li><p>Roback, A. &amp; Maloof, A. (2009). <cite>Hot Topics in Writing</cite> [season one]. A podcast available on the <a href="http://condor.depaul.edu/writing/what/podcast.html">Depaul Writing Center podcast page</a>. All episodes written, recorded, edited, and produced by myself, Alexis Maloof, and Julie Glasier.</p></li>
+		</ul>
 
-</div>
-</div>
+</section>
 
 
-<div id="teach_head">
-<h1 class="section_break"><a href="javascript:unhide('teach');">Teaching</a></h1>
-<div id="teach" class="unhidden">
-
+<section id="teaching">
+<h1>Teaching</h1>
 	<h2>Communications 421: Technical Communication</h2>
 			<h3>Illinois Institute of Technology: Spring 2014</h3>
 				<ul>
@@ -219,13 +200,11 @@
 				<li><p>Course Instructor: Nicole Ortegon</p></li>
 			</ul>
 
-</div>		
-</div>
+</section>
 
 
-<div id="tutor_head">
-<h1 class="section_break"><a href="javascript:unhide('tutor');">Tutoring</a></h1>
-<div id="tutor" class="unhidden">
+<section id="tutoring">
+<h1>Tutoring</h1>
 	<h2>Writing Center Tutor</h2>
 			<h3>Illinois Institute of Technology: Fall 2009</h3>
 				<ul>
@@ -247,13 +226,12 @@
 					<li><p>Worked with graduate students on completing degree requirement writings such as dissertation proposals and dissertations.</p></li>
 					<li><p>Experience working with academic professionals to improve their professional and business writing skills.</p></li>
 				</ul>
-</div>
-</div>
+
+</section>
 
 
-<div id="professional_head">
-<h1 class="section_break"><a href="javascript:unhide('professional');">Recent Professional Experience</a></h1>
-<div id="professional" class="unhidden">
+<section id="professional">
+<h1>Recent Professional Experience</h1>
 	<h2>Business Manager</h2>
 		<h3>DePaul University Center for Writing-based Learning: August 2007- May 2009</h3>
 			<ul>
@@ -269,12 +247,11 @@
 				<li><p>Recognized by the president of NCS for my efforts to use Excel to simplify complex liability calculations.</p></li>
 				<li><p>After leaving to attend graduate school, remained as an outside consultant for two years.</p></li>
 			</ul>
-</div>			
-</div>
+		
+</section>
 
-<div id="tech_head">
-<h1 class="section_break"><a href="javascript:unhide('tech');">Technical Proficiencies</a></h1>
-<div id="tech" class="unhidden">
+<section id="tech">
+<h1>Technical Proficiencies</h1>
 	<p>I am not a Mac, PC, or Linux person: I can and do use whatever gets the job done.  If that means open source software, so much the better.  Below is a list of technologies I am comfortable using.  It is not comprehensive or final, and I am always ready and willing to learn.</p>
 	
 	<ul>
@@ -328,12 +305,14 @@
 				<li>SPSS</li>
 			</ul></li>
 	</ul>
-</div>
-</div>	
+
+</section>	
 				
 </div>
 
-<?php include($_SERVER["DOCUMENT_ROOT"] . "/includes/footer.php"); ?>
+<footer>
+	<script src="../includes/footer.php"></script>
+</footer>
 
 </div>
 
