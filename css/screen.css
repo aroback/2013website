@@ -4,16 +4,46 @@
 	font-weight: normal;
 	font-style: normal;
 	}
+	
+@font-face {
+	font-family: 'Karla';
+	src: url('http://fonts.googleapis.com/css?family=Karla:400,700')
+	}
 
 html {
 	background-color: lightblue;
-}
+	}
+
+div#page {
+	width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+	}
 	
 header h1 {
 	font-family: 'Duo-Dunkel';
 	font-size: 4em;
 	}
 	
+header h2 {
+	font-family: 'Karla', sans-serif;
+	font-size: 1.5em;
+	margin-bottom: 30px;
+	}
+
+nav#accessible_nav {
+	margin-left: -10000px;
+	}
+	
+nav#top_level {
+	position: absolute;
+	margin: -75px 0px 0px 630px;
+	text-align: right;
+	width: 230px;
+	font-family: 'karla', sans-serif;
+	font-size: 1.5em;
+	}
+
 a:hover {
 	text-decoration: underline;
 	}
