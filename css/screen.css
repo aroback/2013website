@@ -15,9 +15,14 @@ html {
 	}
 
 div#page {
-	width: 960px;
-	margin-left: auto;
+	width: 860px;
+	margin-left: 50px;
 	margin-right: auto;
+	}
+
+div#about {
+	width: 470px;
+	padding-right: 5px;
 	}
 	
 header h1 {
@@ -28,7 +33,11 @@ header h1 {
 header h2 {
 	font-family: 'Karla', sans-serif;
 	font-size: 1.5em;
-	margin-bottom: 30px;
+	margin-top: 0px;
+	}
+	
+h2 {
+	margin-top: 20px;
 	}
 
 nav#accessible_nav {
@@ -36,12 +45,18 @@ nav#accessible_nav {
 	}
 	
 nav#top_level {
-	position: absolute;
-	margin: -75px 0px 0px 630px;
+	position: fixed;
+	height: auto;
+	margin: -145px 0px 0px 965px;
 	text-align: right;
-	width: 230px;
+	width: 150px;
 	font-family: 'karla', sans-serif;
 	font-size: 1.5em;
+	}
+	
+nav#top_level p {
+	font-family: 'Duo-Dunkel';
+	font-size: 1em;
 	}
 
 a:hover {
