@@ -18,3 +18,7 @@ Thumbs.db
 *.xls
 *.xlsx
 *.pdf
+
+# Server-side files #
+######################
+.htaccess
