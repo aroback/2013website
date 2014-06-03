@@ -47,6 +47,25 @@
 	
 </div>
 
+<div id="blog">
+<?php 
+define('WP_USE_THEMES', false);
+require('../../blog.andrewroback.com/html/wp-blog-header.php');
+?>
+<?php
+global $post;
+$args = array( 'posts_per_page' => 3 );
+$myposts = get_posts( $args );
+foreach( $myposts as $post ) :	setup_postdata($post); ?>
+<a href="<?php the_permalink() ?>"><?php the_title(); ?></a><br />
+<p><?php the_excerpt(); ?>
+<?php endforeach; ?>
+</div>
+
+<div id="research">
+<!--placeholder for when andrewroback.com/research is up and running-->
+</div>
+
 <footer>
 	<?php
 	include './includes/footer.php';
