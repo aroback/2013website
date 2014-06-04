@@ -4,10 +4,11 @@
 	font-weight: normal;
 	font-style: normal;
 	}
+
 	
 @font-face {
-	font-family: 'Karla';
-	src: url('http://fonts.googleapis.com/css?family=Karla:400,700')
+	font-family: 'Open Sans';
+	src: url('http://fonts.googleapis.com/css?family=Open+Sans');
 	}
 
 html {
@@ -70,7 +71,7 @@ a {
 	}	
 	
 p {
-	font-family: 'Karla', sans-serif;
+	font-family: 'Rockwell', 'Arvo', "Times-New-Roman", serif;
 	font-size: 1em;
 	}
 	
