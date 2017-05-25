@@ -19,8 +19,34 @@ div#page {
 	width: 960px;
 	margin-left: 50px;
 	margin-right: auto;
+	padding-left: 10px;
+	background-color: aliceblue;
+	-webkit-animation: fadein 2s;
 	}
 
+	
+	
+section#twitter {
+  position: absolute;
+  top: 126px;
+  left: 563px;
+	opacity: 100%;
+	/*-webkit-transition-property: opacity;
+	-webkit-transition-timing-function: ease-in-out;*/
+	}
+
+section#twitter h2 {
+    width: 436px;
+    height: 36px;
+    padding: 10px 15px 10px 0px;
+    position: absolute;
+    background-color: aliceblue;
+	}
+	
+div#twitter_feed {
+	margin-top: 20px;
+}
+	
 div#about {
 	width: 470px;
 	padding-right: 5px;
