@@ -21,7 +21,6 @@ div#page {
 	margin-right: auto;
 	padding-left: 10px;
 	background-color: aliceblue;
-	-webkit-animation: fadein 2s;
 	}
 
 	
@@ -31,8 +30,6 @@ section#twitter {
   top: 126px;
   left: 563px;
 	opacity: 100%;
-	/*-webkit-transition-property: opacity;
-	-webkit-transition-timing-function: ease-in-out;*/
 	}
 
 section#twitter h2 {
@@ -88,13 +85,19 @@ nav#top_level p {
 	}
 
 a:hover {
-	text-decoration: underline;
+	box-shadow: inset 0px -4px 0px 0px blue;
 	}
 
 a {
 	color: blue;
 	text-decoration: none;
+	box-shadow: inset 0px -4px 0px 0px lightblue;
+	-webkit-transition: box-shadow 1s;
 	}	
+	
+footer > a {
+	text-decoration: none;
+}
 	
 p {
 	font-family: 'Rockwell', 'Arvo', "Times-New-Roman", serif;
