@@ -1,5 +1,5 @@
 html {
-	background-color: lightblue;
+	background-color: #b9ead3;
 	}
 
 div#page {
@@ -67,19 +67,26 @@ nav#top_level {
 	font-size: 1.5em;
 	}
 	
-nav#top_level p {
-	font-family: 'Karla';
-	font-size: 1em;
+nav#top_level a.active {
+	color: white;
+	background-color: #b9ead3;
+	margin-right: -10px;
+	padding-right: 10px;
+	padding-left: 50px;
+	}
+	
+nav#top_level > ul > li > a {
+	box-shadow: none;
 	}
 
 a:hover {
-	box-shadow: inset 0px -4px 0px 0px blue;
+	box-shadow: inset 0px -4px 0px 0px #41b17c;
 	}
 
 a {
-	color: blue;
+	color: #41b17c;
 	text-decoration: none;
-	box-shadow: inset 0px -4px 0px 0px lightblue;
+	box-shadow: inset 0px -4px 0px 0px #c5c5c5;
 	-webkit-transition: box-shadow 1s;
 	}	
 	
