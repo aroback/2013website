@@ -1,5 +1,6 @@
-	<a href="http://creativecommons.org/licenses/by-nc-sa/3.0/"><img alt="Creative Commons License" style="border-width:0" src="../images/CC-BY-NC-SA-icon-80x15.png" /></a>
+<ul>
 	
-	<a href="http://validator.w3.org/check?uri=referer"><img alt="W3C Validator Icon" src="../images/valid_xhtml10_blue.png" /></a>
+	<li><a href="http://creativecommons.org/licenses/by-nc-sa/3.0/"><img alt="Creative Commons License" style="border-width:0" src="../images/CC-BY-NC-SA-icon-80x15.png" /></a></li>
 	
-	<a href="http://jigsaw.w3.org/css-validator/check?uri=referer"><img alt="W3C CSS Validator Icon" src="../images/valid_css21_blue.png" /></a>
+	<li>Written in <a href="http://validator.w3.org/check?uri=referer">valid HTML5</a>.</li>
+</ul>

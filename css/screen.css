@@ -89,12 +89,13 @@ a {
 	box-shadow: inset 0px -4px 0px 0px #c5c5c5;
 	-webkit-transition: box-shadow 1s;
 	}	
-	
-footer > a {
-	box-shadow: none;
-}
-	
+
 p {
+	font-family: 'Rockwell', 'Arvo', "Times-New-Roman", serif;
+	font-size: 1em;
+	}
+	
+li {
 	font-family: 'Rockwell', 'Arvo', "Times-New-Roman", serif;
 	font-size: 1em;
 	}
@@ -112,16 +113,22 @@ h3 {
 	}
 	
 
-	/*Wordpress include styles*/
+/*Wordpress include styles*/
 
 span.screen-reader-text {
-display: none;
+	display: none;
 }
 
 
-	
-	
 /*Footer styles*/
+footer  li {
+	display: inline;
+}
+
+footer  a {
+	box-shadow: none;
+}
+
 footer {
 margin-top: 25px;
 }
