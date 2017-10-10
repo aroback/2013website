@@ -10,7 +10,8 @@ div#page {
 	background-color: aliceblue;
 	}
 
-	
+
+/*Twitter section styles*/
 	
 section#twitter {
   position: absolute;
@@ -31,6 +32,9 @@ div#twitter_feed {
 	margin-top: 20px;
 }
 	
+	
+/*Root index.html page spacing*/
+	
 div#about {
 	width: 470px;
 	padding-right: 5px;
@@ -40,6 +44,9 @@ div#blog {
 	width: 470px;
 	padding-right: 5px;
 	}
+	
+	
+/*Header styles*/
 	
 header h1 {
 	font-family: 'Karla';
@@ -62,7 +69,10 @@ header h2 {
 	font-size: 1.5em;
 	margin-top: -10px;
 	}
-	
+
+
+/*Navigation Styles*/	
+
 nav#accessible_nav {
 	position: absolute;
 	margin-left: -10000px;
@@ -91,6 +101,20 @@ nav#top_level > ul > li > a {
 	}
 
 
+/*CV navigation*/
+	
+nav#cv_navbar a {
+	box-shadow: none;
+	font-size: 0.8em;
+	}
+
+nav#cv_navbar li {
+	display: inline;
+	}
+
+
+/*Hyperlinks*/
+	
 a:hover {
 	box-shadow: inset 0px -4px 0px 0px #41b17c;
 	}
@@ -102,6 +126,9 @@ a {
 	-webkit-transition: box-shadow 1s;
 	}	
 
+	
+/*Inline text styles*/
+	
 p {
 	font-family: 'Rockwell', 'Arvo', "Times-New-Roman", serif;
 	font-size: 1em;
@@ -125,7 +152,7 @@ h3 {
 	}
 	
 
-/*Wordpress include styles*/
+/*Wordpress-specific styles*/
 
 span.screen-reader-text {
 	display: none;
