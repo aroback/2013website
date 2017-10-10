@@ -46,21 +46,32 @@ header h1 {
 	font-size: 6em;
 	font-weight: bold;
 	}
+
+header > h1 > a {
+	text-decoration: none;
+	color: black;
+	box-shadow: none;
+	}	
+	
+header > h1 > a:hover {
+	box-shadow: none;
+	}	
 	
 header h2 {
 	font-family: 'Karla', sans-serif;
 	font-size: 1.5em;
-	margin-top: 0px;
+	margin-top: -10px;
 	}
 	
 nav#accessible_nav {
+	position: absolute;
 	margin-left: -10000px;
 	}
 	
 nav#top_level {
 	position: absolute;
 	height: auto;
-	margin: -145px 0px 0px 800px;
+	margin: -120px 0px 0px 800px;
 	text-align: right;
 	width: 150px;
 	font-family: 'Karla', sans-serif;
@@ -78,6 +89,7 @@ nav#top_level a.active {
 nav#top_level > ul > li > a {
 	box-shadow: none;
 	}
+
 
 a:hover {
 	box-shadow: inset 0px -4px 0px 0px #41b17c;
