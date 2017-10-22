@@ -19,6 +19,12 @@ section#twitter {
   margin-top: -430px;
 	opacity: 100%;
 	}
+	
+@-moz-document url-prefix() {
+		section#twitter {
+			margin-top: -455px;
+		}
+	}
 
 section#twitter h2 {
     width: 436px;
@@ -144,6 +150,10 @@ nav#cv_navbar li {
   background: #b9ead3;
   margin-left: -10px;
   padding-left: 10px;
+}
+
+.fixed-navbar-placeholder {
+	min-height: 35px;
 }
 
 

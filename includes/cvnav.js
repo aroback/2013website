@@ -6,9 +6,9 @@ jQuery(document).ready(function() {
 		var scroll = jQuery(window).scrollTop();
 		
 		if (scroll >= cvnav) {
-			jQuery("nav").addClass("fixed-navbar");
+			jQuery("nav").addClass("fixed-navbar").addClass("fixed-navbar-placeholder");
 		} else {
-			jQuery("nav").removeClass("fixed-navbar");		
+			jQuery("nav").removeClass("fixed-navbar").removeClass("fixed-navbar-placeholder");		
 		}
 		
 	});
