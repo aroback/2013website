@@ -59,7 +59,7 @@ div#blog {
 }
 	
 	
-/*Header styles*/
+/*Heading styles*/
 	
 header h1 {
 	font-family: 'Karla';
@@ -83,6 +83,31 @@ header h2 {
 	font-size: 1.5em;
 	margin-top: -10px;
 	}
+	
+h2 {
+	font-family: 'Karla', sans-serif;
+	font-size: 2em;
+	margin-top: 20px;
+	}
+	
+h3 {
+	font-family: 'Karla', sans-serif;
+	font-size: 1.2em;
+	margin-top: 10px;
+	}
+
+h3.topic_org {
+	font-style: italic;
+  font-weight: bold;
+  margin-top: 45px;
+	}
+	
+h4
+	{
+	font-family: karla;
+  font-style: italic;
+  font-size: .9em;
+	}
 
 
 /*Navigation Styles*/	
@@ -102,6 +127,11 @@ nav#top_level {
 	font-size: 1.5em;
 	}
 	
+nav#top_level li {
+	list-style: none;
+	margin-bottom: 0px;
+	}
+	
 nav#top_level li.active {
 	background-color: #b9ead3;
 	margin-right: -10px;
@@ -110,7 +140,6 @@ nav#top_level li.active {
 
 nav#top_level > ul > li.active > a {
 	color: white;
-
 	}
 	
 nav#top_level > ul > li > a {
@@ -135,6 +164,10 @@ nav#cv_navbar a:hover {
 	border-left: 1px solid;
 	background-color: #41b17c;
 	color: #ffffff;
+	}
+	
+nav#cv_navbar ul {
+	margin-left: 0px;
 	}
 
 nav#cv_navbar li {
@@ -178,21 +211,20 @@ p {
 	font-size: 1em;
 	}
 	
+ul {
+  margin-left: 30px;
+  margin-top: 5px;
+	}
+	
 li {
 	font-family: 'Rockwell', 'Arvo', "Times-New-Roman", serif;
 	font-size: 1em;
+	list-style-type: square;
+	margin-bottom: 10px;
 	}
 	
-h2 {
-	font-family: 'Karla', sans-serif;
-	font-size: 2em;
-	margin-top: 20px;
-	}
-	
-h3 {
-	font-family: 'Karla', sans-serif;
-	font-size: 1em;
-	margin-bottom: 5px;
+li.no_bullet {
+	list-style: none;
 	}
 	
 
@@ -204,8 +236,14 @@ span.screen-reader-text {
 
 
 /*Footer styles*/
+footer ul {
+	margin-left: 0px;
+}
+
+
 footer  li {
 	display: inline;
+	list-style: none;
 }
 
 footer  a {
