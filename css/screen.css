@@ -45,6 +45,13 @@ div#blog {
 	padding-right: 5px;
 	}
 	
+
+/*CV spacing*/
+
+#education, #conferences, #teaching, #service, #tutoring, #professional, #tech {
+	padding-top: 25px;
+}
+	
 	
 /*Header styles*/
 	
@@ -119,7 +126,7 @@ nav#cv_navbar a {
 	}
 	
 nav#cv_navbar a:hover {
-	border-left: 3px solid;
+	border-left: 1px solid;
 	background-color: #41b17c;
 	color: #ffffff;
 	}
@@ -127,6 +134,17 @@ nav#cv_navbar a:hover {
 nav#cv_navbar li {
 	display: inline;
 	}
+	
+.fixed-navbar {
+	position: fixed;
+	top: 0px;
+	min-height: 35px;
+  width: 960px;
+  padding-top: 10px;
+  background: #b9ead3;
+  margin-left: -10px;
+  padding-left: 10px;
+}
 
 
 /*Hyperlinks*/
