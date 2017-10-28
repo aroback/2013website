@@ -16,13 +16,13 @@ div#page {
 section#twitter {
   position: absolute;
   margin-left: 508px;
-  margin-top: -430px;
+  margin-top: -485px;
 	opacity: 100%;
 	}
 	
 @-moz-document url-prefix() {
 		section#twitter {
-			margin-top: -455px;
+			margin-top: -505px;
 		}
 	}
 
@@ -93,7 +93,7 @@ h2 {
 h3 {
 	font-family: 'Karla', sans-serif;
 	font-size: 1.2em;
-	margin-top: 10px;
+	margin-top: 30px;
 	}
 
 h3.topic_org {
