@@ -54,6 +54,10 @@ div#blog {
 
 /*CV spacing*/
 
+div#cv {
+	padding-right: 30px;
+	}
+
 #education, #conferences, #teaching, #service, #tutoring, #professional, #tech {
 	padding-top: 25px;
 	}
