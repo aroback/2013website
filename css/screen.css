@@ -16,15 +16,15 @@ div#page {
 section#twitter {
   position: absolute;
   margin-left: 508px;
-  margin-top: -485px;
+  margin-top: -475px;
 	opacity: 100%;
 	}
 	
 @-moz-document url-prefix() {
 		section#twitter {
-			margin-top: -505px;
+			margin-top: -495px;
 		}
-	}
+	} /*Hack to fix spacing in Firefox*/
 
 section#twitter h2 {
     width: 436px;
@@ -56,8 +56,24 @@ div#blog {
 
 #education, #conferences, #teaching, #service, #tutoring, #professional, #tech {
 	padding-top: 25px;
-}
+	}
+
+h2 + h3.topic_org {
+	margin-top: 20px;
+	}
 	
+h2 + h3 {
+	margin-top: 20px;
+	}
+
+#teaching > div.course_list > h3:nth-child(1) {
+	margin-top: 5px;
+	}
+	
+div.course_list {
+	margin-left: 30px;
+	}
+
 	
 /*Heading styles*/
 	
