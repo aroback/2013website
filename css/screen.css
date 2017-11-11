@@ -81,6 +81,13 @@ h2 + h3 {
 div.course_list {
 	margin-left: 30px;
 	}
+	
+div#right_column {
+	position: absolute;
+  margin-left: 500px;
+  margin-top: -775px;
+  z-index: 0;
+	}
 
 	
 /*Heading styles*/
@@ -207,6 +214,7 @@ nav#cv_navbar li {
   background: #b9ead3;
   margin-left: -10px;
   padding-left: 10px;
+	z-index: 1;
 }
 
 .fixed-navbar-placeholder {
