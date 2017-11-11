@@ -58,8 +58,12 @@ div#cv {
 	padding-right: 30px;
 	}
 
-#education, #conferences, #teaching, #service, #tutoring, #professional, #tech {
+#conferences, #teaching, #service, #tutoring, #professional, #tech {
 	padding-top: 25px;
+	}
+	
+#education > h2 {
+	margin-top: 0px;
 	}
 
 h2 + h3.topic_org {
