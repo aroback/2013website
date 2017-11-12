@@ -89,6 +89,37 @@ div#right_column {
   z-index: 0;
 	}
 
+/*Portfolio spacing*/
+.row {
+	margin: 10px 0px 15px 0px;
+	}
+
+.left_item, .center_item, .right_item {
+	background-color: #c5c5c5;
+	padding: 5px;
+	width: 300px;
+	}
+
+.left_item {
+
+	}
+
+.center_item {
+	position: absolute;
+  margin-top: -221px;
+  margin-left: 320px;
+	}
+
+.right_item {
+	position: absolute;
+  margin-top: -221px;
+  margin-left: 640px;
+	}	
+	
+.caption {
+	width: 300px;
+	height: 40px;
+	}
 	
 /*Heading styles*/
 	
