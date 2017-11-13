@@ -88,6 +88,12 @@ div#right_column {
   margin-top: -775px;
   z-index: 0;
 	}
+	
+@-moz-document url-prefix() {
+		div#right_column {
+			margin-top: -792px;
+		}
+	}/*hack to fix spacing in Firefox*/
 
 /*Portfolio spacing*/
 .row {
