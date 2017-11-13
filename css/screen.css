@@ -16,13 +16,13 @@ div#page {
 section#twitter {
   position: absolute;
   margin-left: 508px;
-  margin-top: -475px;
+  margin-top: -219px;
 	opacity: 100%;
 	}
 	
 @-moz-document url-prefix() {
 		section#twitter {
-			margin-top: -495px;
+			margin-top: -228px;
 		}
 	} /*Hack to fix spacing in Firefox*/
 
