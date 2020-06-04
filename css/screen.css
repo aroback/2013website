@@ -83,6 +83,7 @@ div.course_list {
 	}
 	
 div#right_column {
+	min-width: 480px;
 	position: absolute;
   margin-left: 500px;
   margin-top: -775px;
