@@ -98,6 +98,7 @@ div#right_column {
 
 /*Portfolio spacing*/
 .row {
+	position: relative;
 	margin: 10px 0px 15px 0px;
 	}
 
@@ -120,9 +121,39 @@ div#right_column {
 	}	
 	
 .caption {
-	width: 300px;
+	width: 100%;
+	text-align: center;
 	height: 55px;
 	}
+
+.doc {
+	max-height: 388px;
+	max-width: 100%;
+}
+
+.poster {
+	max-height: 100%;
+	max-width: 100%;
+}
+
+.one_column {
+	bottom: 0;
+	text-align: center;
+}
+
+.two_column {
+	width: 620px;
+	bottom: 0;
+	text-align: center;
+}
+
+.three_column {
+	width: 940px;
+	bottom: 0;
+	text-align: center;
+}
+
+
 	
 /*Heading styles*/
 	
