@@ -159,9 +159,8 @@ div#right_column {
 /*Heading styles*/
 	
 header h1 {
-	font-family: 'Karla';
+	font-family: 'Kanit';
 	font-size: 6em;
-	font-weight: bold;
 	}
 
 header > h1 > a {
@@ -177,13 +176,14 @@ header > h1 > a:hover {
 	
 header h2 {
 	font-family: 'Karla', sans-serif;
+	font-style: italic;
 	font-size: 1.5em;
-	margin-top: -10px;
+	margin-top: -30px;
 	}
 	
 h2 {
-	font-family: 'Karla', sans-serif;
-	font-size: 2em;
+	font-family: 'Kanit', sans-serif;
+	font-size: 1.7em;
 	margin-top: 20px;
 	}
 	
